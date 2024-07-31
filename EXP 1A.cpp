@@ -1,6 +1,7 @@
-//KANWALJEET SINGH
-//23070123124
+//RIDDHI LOKHANDE
+//2307012307
 //ENTCB2
+//EXP 1A
 #include<iostream>
 int main(){
    std::cout<<"HELLO WORLD";

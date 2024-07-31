@@ -28,22 +28,21 @@ Printing "Hello, World!" in C++ involves several concepts fundamental to the lan
    - `std::cout` is an object of the `ostream` class defined in the `iostream` header. It is used to output data to the standard output, usually the screen.
    - The `<<` operator is called the insertion operator. It is used to send data to the output stream.
    - `"Hello, World!"` is a string literal that is passed to `std::cout` for output.
-   - `std::endl` is an output manipulator that inserts a newline character and flushes the output buffer, ensuring that the output is displayed immediately.
 
 4. **Return Statement: `return 0;`**
    - The `return` statement terminates the `main` function and returns an integer value to the calling process.
    - `0` is traditionally used to indicate that the program ended successfully.
 ## Code
 ```cpp
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include<iostream>
+int main(){
+   std::cout<<"HELLO WORLD";
     return 0;
 }
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/98d2f4bc-d770-47ba-84a5-7fcd356e4cf6)
 
+## Conclusion
 This simple program demonstrates the basic structure and workflow of a C++ program, including the use of headers, the main function, standard output, and the return statement.
 
